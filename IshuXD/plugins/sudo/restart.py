@@ -10,9 +10,9 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from IshuXDort app
-from IshuXDc import HAPP, SUDOERS, XCB
-from IshuXDls.database import (
+from IshuXD import app
+from IshuXD.misc import HAPP, SUDOERS, XCB
+from IshuXD.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
