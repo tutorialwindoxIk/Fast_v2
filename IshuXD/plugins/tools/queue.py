@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from IshuXDort app
-from IshuXDc import db
-from IshuXDls import IshuBin, get_channeplayCB, seconds_to_min
-from IshuXDls.database import get_cmode, is_active_chat, is_music_playing
-from IshuXDls.decorators.language import language, languageCB
-from IshuXDls.inline import queue_back_markup, queue_markup
+from IshuXD import app
+from IshuXD.misc import db
+from IshuXD.utils import IshuBin, get_channeplayCB, seconds_to_min
+from IshuXD.utils.database import get_cmode, is_active_chat, is_music_playing
+from IshuXD.utils.decorators.language import language, languageCB
+from IshuXD.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
