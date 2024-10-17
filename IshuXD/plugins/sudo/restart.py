@@ -17,8 +17,8 @@ from IshuXD.utils.database import (
     remove_active_chat,
     remove_active_video_chat,
 )
-from IshuXDls.decorators.language import language
-from IshuXDls.pastebin import IshuBin
+from IshuXD.utils.decorators.language import language
+from IshuXD.utils.pastebin import IshuBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
